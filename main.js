@@ -146,11 +146,11 @@ function App() {
       window.Android.pickPicture()
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 82,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("br", {}, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 84,
       columnNumber: 50
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("input", {
       type: "button",
@@ -162,7 +162,7 @@ function App() {
       }
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 85,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       children: Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("video", {
@@ -175,36 +175,36 @@ function App() {
         children: "Video stream not available."
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 93,
+        lineNumber: 89,
         columnNumber: 9
       }, this)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 88,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       children: "Devices:"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 93,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       id: "devices"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 94,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       children: "State:"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 95,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       id: "msg"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 96,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("input", {
       type: "button",
@@ -216,16 +216,34 @@ function App() {
       onClick: getGeoLocation
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 97,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       children: "Location:"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 98,
       columnNumber: 7
     }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("p", {
       id: "location"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 7
+    }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("input", {
+      type: "button",
+      value: "Take Picture",
+      onClick: () => // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      window.Android.updatePicture()
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 7
+    }, this), Object(_emotion_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("img", {
+      id: "theImg",
+      alt: "alt",
+      width: "400px",
+      height: "400px"
     }, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 103,
